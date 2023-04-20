@@ -83,7 +83,7 @@ PS3 is default, to run for another config (e.g. xbox) use this:
  `ros2 launch teleop_twist_joy teleop-launch.py joy_config:='xbox' `
 
 - open terminal 2:
- `python2 joy.py`
+ `python3 joy.py`
  
 __Note:__ this launch file also launches the `joy` node so do not run it separately.
 
