@@ -70,7 +70,8 @@ The package comes with the `teleop_node` that republishes `sensor_msgs/msg/Joy` 
 # Usage
 
 ## Install
-For most users building from source will not be required, execute `apt-get install ros-<rosdistro>-teleop-twist-joy` to install.
+For most users building from source will not be required,
+- execute: `sudo apt-get install ros-<rosdistro>-teleop-twist-joy` to install.
 
 ## Run
 A launch file has been provided which has three arguments which can be changed in the terminal or via your own launch file.
